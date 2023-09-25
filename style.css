@@ -7,11 +7,17 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    gap: 10px;
     background-color: #212642;
     color: rgb(209, 209, 209);
 }
 
-.header-logo    {
+.link-container   {
+    display: flex;
+    gap: 15px;
+    
+}
 
+.header-banner {
+    display: flex;
+    flex-direction: column;
 }
