@@ -1,14 +1,27 @@
 body {
     display: flex;
     flex-direction: column;
+    font-family: roboto, sans-serif;
+    margin: 0;
+    width: auto;
 }
 
 .header-container {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color: #212642;
-    color: rgb(209, 209, 209);
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 20px;
+}
+
+.header-logo {
+    font-weight: bold;
+}
+
+.header-banner {
+    background-color: #1F2937;
+    color: #F9FAF8;
 }
 
 .link-container   {
