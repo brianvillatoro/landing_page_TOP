@@ -13,6 +13,7 @@ body {
     background-color: #1F2937;
     color: #F9FAF8;
     padding: 20px;
+    width: 100%;
 }
 
 .header-logo {
@@ -22,15 +23,38 @@ body {
 .header-banner {
     background-color: #1F2937;
     color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 40px; */
+    width: 100%;
+    gap: 20px;
+}
+
+.img-holder {
+    width: 450px;
+    height: 150px;
+    background-color: beige;
+    color: #1F2937;
+
+}
+
+.awesome {
+    margin-bottom: 0;
+    font-size: 48px;
+    font-weight: bolder;
+    width: 350px;
+}
+
+.subtext {
+    margin-top; 0;
+    font-size: 18px;
+    width: 450px;
+    color: #E5E7EB;
 }
 
 .link-container   {
     display: flex;
     gap: 15px;
-    
-}
 
-.header-banner {
-    display: flex;
-    flex-direction: column;
 }
