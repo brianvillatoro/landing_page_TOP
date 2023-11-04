@@ -141,3 +141,61 @@ body {
     color: #1F2937;
     
 }
+
+.action-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.call-to-action {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882F6;
+    height: 100px;
+    width: 960px;
+    border-radius: 15px;
+    padding: 10px;
+
+}
+
+.action-text {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-start; */
+    /* align-items: center; */
+}
+
+.its-time {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bolder;
+    margin-bottom: 0;
+}
+
+.sign-up {
+    color: #E5E7EB;
+    margin-top: 0;
+}
+
+.action-button {
+    background-color: #3882F6;
+    border: 2px solid #F9FAF8;
+    color: #F9FAF8;
+    padding: 5px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+
+}
+
+.footer {
+    background-color: #1F2937;
+    color:#F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
